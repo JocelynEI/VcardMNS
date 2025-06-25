@@ -102,3 +102,35 @@ header p {
 .gallery img:hover {
   transform: scale(1.05);
 }
+/* Footer */
+.footer-contact {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e7f8ff;
+  border-top: 2px solid #00aaff;
+  border-radius: 0 0 12px 12px;
+  font-size: 0.95rem;
+  color: #03314b;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact .line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-contact svg {
+  width: 18px;
+  height: 18px;
+  fill: #0077aa;
+}
+
+.footer-contact small {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 8px;
+}
+
